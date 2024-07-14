@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+  
+}
+
+nav{
+     padding: 30px;
+     border: 1px solid black;
+     text-align: center;
+     border: 1px solid rgb(236, 233, 233);
+    box-shadow: 2px 2px 5px gray;
+     justify-content: space-between;
+}
+
+#sidebar{
+    position: fixed;
+    width: 260px;
+    background-color: white;
+    left: 2.5px;
+    height: 73%;
+    border: 1px solid rgb(236, 233, 233);
+    box-shadow: 2px 2px 5px gray;
+    gap:2px;
+    padding: 20px;
+
+}
+#sidebar .dash li{
+    margin: 8px;
+    padding: 7px;
+    font-size: larger;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    
+}
+#sidebar .dash a{
+    padding: 25px;
+    text-decoration-line:none;
+    color: black;
+    list-style: none;
+    background-color: white;
+}
+
+
+
+#sidebar .logout li{
+    
+    font-size: larger;
+    text-align: left;
+    text-decoration: none; 
+    list-style: none;
+}
+#sidebar .dash{
+    top: 25px;
+}
+
+#skills{
+   position: relative;
+   left: 260px;
+   justify-content: space-between;
+ 
+}
+.skil {
+    padding-left: 300px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px; 
+}
+.course{
+    padding-left: 300px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px
+}
+
+
+#sidebar {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content {
+    padding-left: 350px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 90px;
+    
+    
+}
+.part1{
+margin: 20px;
+display: inline-block;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 35px;
+
+}
+
+.content2 {
+    background-image: url(blue.jpg);
+    background-repeat: repeat;
+    position: fixed;
+    margin-top: 25px;
+    display: flex; 
+    margin-left: 360px;
+    margin-right: 90px;
+   
+    border: 3px solid black;
+    height: 35%;
+    width: 70%;
+    border-radius: 5px;
+    z-index: 1;
+}
+.h2 ul {
+    
+    display: flex;
+    text-align: center;
+justify-content: space-between;
+align-items: center;       
+}
+
+.h2 ul li{
+margin: 10px;
+list-style: none;
+color: rgb(217, 204, 204);
+}
+
+.content2 {
+    display: flex;
+}
+
+.big{
+    display: flex;
+    height: 200px;
+    margin-top: 20px;
+
+
+}
+.Tasks{
+    height: 200px;
+    width: 280px;
+    margin-top: 25px;
+    margin-left: 58px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.Tasks img{
+width: 80px;
+height: 100px;
+padding-right: 10px;
+}
+.html{
+    display: inline;
+    line-height: 40px;
+    width: 450px;
+   
+}
+.html button{
+    background-color: rgb(255, 99, 42);
+    padding: 8px;
+    width: 85px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+}
+.part1 button:hover{
+    transform: scale(0.95);
+opacity:0.9;cursor: pointer;
+
+}
+#sidebar .dash li:hover{
+    transform: scale(0.95);
+opacity:0.9;cursor: pointer;
+
+}
+.html:hover{
+    transform: scale(0.95);
+opacity:0.9;cursor: pointer;
+ 
+}
+.html button:hover{
+    transform: scale(0.95);
+opacity:0.9;cursor: pointer;
+ 
+}
+
+footer{
+    margin-top: 295px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(236, 233, 233);
+    box-shadow: 2px 2px 5px gray;   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+footer p{
+    padding: 3.5px;
+}

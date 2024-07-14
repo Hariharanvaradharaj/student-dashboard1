@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <h1>ENTRI elevate</h1>
+    </nav>
+    
+    <section id="sidebar">
+
+        <div class="dash" style="background-color: white;">
+            <img src="solid-icon-for-web-develop-vector.jpg" alt="img" style="height: 40px; width: 45px;">
+            <h3 style="background-color: white;">Dashboard</h3><br><br>
+            
+            <ul style="background-color: white;">
+               <div> <li><i class="fa-solid fa-house-chimney"></i><a href="#">Home</a></li></div>
+               <div> <li><i class="fa-solid fa-user"></i><a href="#">Profile</a></li></div>
+               <div> <li><i class="fa-solid fa-wallet"></i><a href="#">Wallet</a></li></div>
+               <div> <li><i class="fa-regular fa-chart-bar"></i><a href="#">Analytics</a></li></div>
+               <div> <li><i class="fa-solid fa-list-check"></i><a href="#">Tasks</a></li></div>
+               <div> <li><i class="fa-solid fa-gear"></i><a href="#">Settings</a></li></div>
+               <div><li><i class="fa-solid fa-circle-question"></i><a href="#">Help</a></li></div>
+            </ul><br><br>
+
+            <div class="logout">
+            <ul>
+                <li><i class="fa-solid fa-arrow-right-from-bracket"></i><a href="#">logout</a></li>
+
+            </ul>
+            </div>
+
+    </section>
+    <div class="skil" style="background-color: white;">
+        <h2>Skills</h2>
+        <i class="fa-solid fa-gears"></i>
+
+    </div>
+    <div class="content">
+        <div class="part1">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>FSD Course</h2>
+            <p>Join Over 1 million Students</p> 
+            <button type="button" class="btn btn-primary" style="padding: 10px; border-radius: 12px;width: 130px;background-color: rgb(255, 99, 42);color: white;font-weight: 600;">Get Started</button>
+
+        </div>
+        <div class="part1">
+            <i class="fa-brands fa-wordpress"></i>
+            <h2>Word Press</h2>
+            <p>Join Over 3 million Students</p> 
+            <button type="button" class="btn btn-primary" style="padding: 10px; border-radius: 12px;width: 130px;background-color: rgb(255, 99, 42);color: white;font-weight: 600;">Get Started</button>
+
+        </div>
+        <div class="part1">
+            <i class="fa-solid fa-palette"></i>
+            <h2>Graphics</h2>
+            <p>Join Over 2 million Students</p> 
+            <button type="button" class="btn btn-primary" style="padding: 10px; border-radius: 12px;width: 130px;background-color: rgb(255, 99, 42);color: white;font-weight: 600;">Get Started</button>
+
+        </div>
+        <div class="part1">
+            <i class="fa-brands fa-js"></i>
+            <h2>React Js</h2>
+            <p>Join Over 1 million Students</p> 
+            <button type="button" class="btn btn-primary"  style="padding: 10px; border-radius: 12px;width: 130px;background-color: rgb(255, 99, 42);color: white; font-weight: 600;">Get Started</button>
+
+        </div>
+    
+    
+    
+    </div>
+    <div class="course">
+    <h2>My Courses</h2>
+    </div>  
+    <div class="content2" style="background-image: url(blue.jpg);">
+        <div class="Tasks">
+            <div class="html">
+                <h3>HTML</h3>
+                <p>80%-Progress</p>
+                <button>Continue</button>
+            </div>
+                <img src="data:image/png;base64,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" alt="">
+                </div>
+              <div class="Tasks">
+            <div class="html">
+                <h3>CSS</h3>
+                <p>60%-Progress</p>
+                <button>Continue</button>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQvy0tm0VUbe1XZkW-XEQXWejKcF3JIx7Brg&s" alt="img">
+                </div>
+                <div class="Tasks">
+                    <div class="html">
+                        <h3>Jacascript</h3>
+                        <p>40%-Progress</p>
+                        <button>Continue</button>
+                    </div>
+                        <img src="js.jpg" alt="">
+                        </div>
+    </div>
+    
+    
+
+    </div>
+
+
+    <footer>
+        <p>copyrights @ Entri elevate 2024</p>
+    </footer>
+</body>
+</html>
